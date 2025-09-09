@@ -31,7 +31,7 @@ SilentMind is a Windows client-server application that intelligently identifies 
 └─────────────────┘                 └─────────────────┘
 ```
 
-## 📁 Project Structure
+## 📁 Project Structure and Workflow
 
 ```
 SilentMind/
@@ -52,6 +52,7 @@ SilentMind/
 ├── requirements.txt        # Python dependencies
 └── app.py                  # Main server application
 ```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7a45948e-d28e-437f-a85d-c3b599b1e692" />
 
 ## 🚀 Quick Start
 
