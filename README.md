@@ -17,10 +17,11 @@ SilentMind is a Windows client-server application that intelligently identifies 
 - **📊 Clean Output** - Human-readable cookie and file data
 
 ## 🏗️ Architecture
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b7b6835a-0aee-4bd1-a494-1f01578dd32f" />
 
 ```
 ┌─────────────────┐    HTTP POST    ┌─────────────────┐
-│   Windows VM    │ ──────────────► │   macOS Server  │
+│   Windows       │ ──────────────► │         Server  │
 │                 │                 │                 │
 │  silentmind.exe │                 │   Python Flask  │
 │                 │                 │                 │
