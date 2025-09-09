@@ -57,8 +57,8 @@ SilentMind/
 
 ### Prerequisites
 
-- **macOS** (for compilation and server)
-- **Windows VM** (for client execution)
+- **server(linux/windows)** (for compilation and server)
+- **Windows** (for client execution)
 - **Python 3.7+**
 - **mingw-w64** (for cross-compilation)
 
@@ -77,7 +77,6 @@ pip3 install -r requirements.txt
 
 3. **Configure environment:**
 ```bash
-cp .env.example .env
 # Edit .env with your API keys
 ```
 
@@ -88,14 +87,14 @@ cp .env.example .env
 
 ### Running the Application
 
-1. **Start the server (macOS):**
+1. **Start the server:**
 ```bash
 python3 app.py
 ```
 
-2. **Run the client (Windows VM):**
+2. **Run the client (Windows):**
 ```bash
-# Copy silentmind.exe to Windows VM
+# Copy silentmind.exe to Windows 
 silentmind.exe
 ```
 
@@ -214,7 +213,7 @@ RAW BODY: {"fingerprint": {"user": "FarisFisal", "host": "DESKTOP-56RMILU", "os"
 
 ### Compilation
 
-**Cross-compile from macOS to Windows:**
+**Cross-compile from to Windows:**
 ```bash
 ./compile_windows.sh
 ```
