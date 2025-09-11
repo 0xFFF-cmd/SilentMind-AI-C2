@@ -67,7 +67,7 @@ SilentMind/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/SilentMind.git
+git clone https://github.com/0xFFF-cmd/SilentMind.git
 cd SilentMind
 ```
 
